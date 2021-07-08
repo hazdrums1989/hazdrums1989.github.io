@@ -1,0 +1,274 @@
+body,html{
+	height: 100%;
+	width: 100%;
+	margin: 0;
+    outline: 0;
+    padding: 0;
+	font-family: 'Uchen', serif;
+
+}
+
+
+/*Headers*/
+/*------------------------------*/
+
+h3{
+	font-size: 18px;
+	font-family: 'Teko', sans-serif;
+}
+
+h4{
+	margin-top: 35px;
+}
+
+
+
+
+
+/*----------------------------------*/
+/*5 star rating buttons*/
+}
+.rate {
+    float: left;
+    height: 46px;
+    padding: 0 10px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    color: #deb217;  
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    color: #c59b08;
+}
+
+
+
+/*_______________________________*/
+
+/*Top navbar*/
+
+.mainnavbox{
+	margin-top: 16px;
+	margin-bottom: 20px;
+
+}
+
+ul{
+	display: block;
+	justify-content: space-around;
+	align-items: baseline;
+}
+
+
+.menulist{
+	display: inline;
+	font-family: 'Uchen', serif;
+	/*text-align: center;*/
+	font-weight: 900;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 0.31em;
+    color: black;
+    padding-top: 0;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-decoration: none;
+	list-style: none;
+	float: left;
+	margin: 5px;
+	width: auto;
+
+}
+
+.searchbar{
+	text-align: center;
+	vertical-align: middle;
+	content: 15px 100px;
+	font-family: 'Uchen', serif;
+	font-weight: 900;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 0.31em;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: black;
+    display: inline-block;
+}
+
+.searchbar:focus{
+	outline: none;
+}
+
+/*-----------------------------------*/
+/*Branding Head and Nav box*/
+
+.container1{
+	margin-left: 0;
+	margin-right: 0;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: black;
+}
+/*--------------------------------*/
+/*Container formatting*/
+
+.container2, .container3, .container4, .container5, .container7{
+	padding: 0px;
+	margin: 0px;
+
+}
+
+.textbox{
+	text-align: left;
+}
+
+.midpoint{
+	
+
+
+}
+
+/*-------------------------------------*/
+
+/*Decorative Images*/
+
+.decoration1{
+	background-image: url(images/topdecoration.png);
+	background-size: 25px 12px;
+	background-repeat: repeat-x;
+	margin-top: 5px;
+	margin-left: 0px;
+	height: 15px;
+	width: 100%;
+}
+
+.decoration2{
+	background-image: url(images/topdecoration.png);
+	background-size: 25px 12px;
+	background-repeat: repeat-x;
+	transform: rotate(180deg);
+	margin-left: 0px;
+	height: 15px;
+	width: 100%;
+}
+
+
+/*-------------------------------------*/
+/*Breafbox*/
+.breifbox{
+	text-align: center;
+}
+
+
+
+
+/*-------------------------------------------*/
+/*Recipe*/
+
+.recipe{
+	border: black 1px solid;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+	justify-content: center;
+}
+
+
+
+
+
+
+/*--------------------------------------------*/
+.sushi1, .sushi2{
+	max-width: 550px;
+}
+
+
+.sushi3{
+	max-width: 150px;
+}
+
+.intro{
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 0.04em;
+}
+
+
+}
+
+#hr1{
+
+	max-width: 400px;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.advert{
+	height: 200px;
+	display: block;
+	margin: auto;
+}
+
+.linklisttext{
+	color: #34a9a7;
+	text-decoration: underline;
+
+}
+
+.linklisttext:hover{
+	color: #34a9a7;
+	text-decoration: underline;
+
+}
+
+.linklist{
+	list-style: square;
+}
+
+
+
+/*---------------------------------------*/
+/*Div borders*/
+
+/*div{
+	border: solid 1px red;
+}*/
+
+
+/*----------------------------------------*/
+
+
+
